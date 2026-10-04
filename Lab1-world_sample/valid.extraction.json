@@ -1,0 +1,44 @@
+{
+  "signature": {
+    "input_sha256": "a137eb12a6d19751781805b6ec8bf006319dd725b1d2ee2bde08decb00e7e628",
+    "rows": 1050,
+    "width": 2560,
+    "layers": [
+      11,
+      23,
+      35
+    ],
+    "selection": "country",
+    "compute_dtype": "bf16",
+    "storage_dtype": "float16",
+    "model_manifest_sha256": "499872838b29699c3a7b533f0fc47ec997282c8784216e32097c2bf878a1c9c8",
+    "model_repository": "Qwen/Qwen3-4B-Base",
+    "model_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+    "chat_template": false,
+    "block_indexing": "zero-based; output before final RMSNorm"
+  },
+  "next_row": 1050,
+  "complete": true,
+  "environment": {
+    "python": "3.13.13",
+    "torch": "2.12.1+cu130",
+    "transformers": "5.13.0",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "attention": "sdpa"
+  },
+  "outputs": {
+    "11": {
+      "name": "valid.layer11.npy",
+      "sha256": "89ff59cf3ba936f3850749750c59c52ac0446d7b3c042e53163c287baf1405aa"
+    },
+    "23": {
+      "name": "valid.layer23.npy",
+      "sha256": "ab63adecf146601f8c1f001feaf64e465e2a48f102ece91cf981a6376ff77a83"
+    },
+    "35": {
+      "name": "valid.layer35.npy",
+      "sha256": "2fd51b4ab2cac68830c15eaef741d47d297edc9f8bbd2deaa3b6590f0cb7ed81"
+    }
+  }
+}

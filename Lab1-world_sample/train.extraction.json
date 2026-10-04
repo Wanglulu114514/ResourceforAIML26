@@ -1,0 +1,44 @@
+{
+  "signature": {
+    "input_sha256": "16503c09e094cca1b8ea00bde621a38f129408ce0a9008f99fd5bef368992e66",
+    "rows": 8382,
+    "width": 2560,
+    "layers": [
+      11,
+      23,
+      35
+    ],
+    "selection": "country",
+    "compute_dtype": "bf16",
+    "storage_dtype": "float16",
+    "model_manifest_sha256": "499872838b29699c3a7b533f0fc47ec997282c8784216e32097c2bf878a1c9c8",
+    "model_repository": "Qwen/Qwen3-4B-Base",
+    "model_revision": "906bfd4b4dc7f14ee4320094d8b41684abff8539",
+    "chat_template": false,
+    "block_indexing": "zero-based; output before final RMSNorm"
+  },
+  "next_row": 8382,
+  "complete": true,
+  "environment": {
+    "python": "3.13.13",
+    "torch": "2.12.1+cu130",
+    "transformers": "5.13.0",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "attention": "sdpa"
+  },
+  "outputs": {
+    "11": {
+      "name": "train.layer11.npy",
+      "sha256": "5ade8be3ead330f2a0c364564de1958221789232645d78a39308504c6ac08018"
+    },
+    "23": {
+      "name": "train.layer23.npy",
+      "sha256": "6a990a88ecee693ecff9e4d089d9bab21be5ea1db9378e639afabb8a3e6ff3bf"
+    },
+    "35": {
+      "name": "train.layer35.npy",
+      "sha256": "6a2e280766a2b78939fabe3be2f82225ae17a5a13cc7a386536212ed67c633be"
+    }
+  }
+}
